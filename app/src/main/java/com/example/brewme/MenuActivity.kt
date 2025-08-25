@@ -2,6 +2,7 @@ package com.example.brewme
 
 import android.content.Intent
 import android.os.Bundle
+import android.widget.Button
 import android.widget.ImageView
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
@@ -38,6 +39,13 @@ class MenuActivity : AppCompatActivity() {
         val homepage = findViewById<ImageView>(R.id.home)
         homepage.setOnClickListener {
             val intent = Intent(this, HomepageActivity::class.java)
+            startActivity(intent)
+        }
+
+        //menu nagivation linking
+        val cappacino = findViewById<Button>(R.id.cappaccino)
+        cappacino.setOnClickListener {
+            val intent = Intent(this, cappaccinoActivity::class.java)
             startActivity(intent)
         }
     }
