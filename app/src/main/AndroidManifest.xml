@@ -12,6 +12,15 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.BrewMe">
         <activity
+            android:name=".BlackCoffeeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MochaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AmericanoActivity"
+            android:exported="false" />
+        <activity
             android:name=".EspressoActivity"
             android:exported="false" />
         <activity

@@ -48,5 +48,29 @@ class MenuActivity : AppCompatActivity() {
             val intent = Intent(this, cappaccinoActivity::class.java)
             startActivity(intent)
         }
+
+        val espresso = findViewById<Button>(R.id.espresso)
+        espresso.setOnClickListener {
+            val intent = Intent(this, EspressoActivity::class.java)
+            startActivity(intent)
+        }
+
+        val americano = findViewById<Button>(R.id.americano)
+        americano.setOnClickListener {
+            val intent = Intent(this, AmericanoActivity::class.java)
+            startActivity(intent)
+        }
+
+        val mocha = findViewById<Button>(R.id.mocha)
+        mocha.setOnClickListener {
+            val intent = Intent(this, MochaActivity::class.java)
+            startActivity(intent)
+        }
+
+        val bCoffee = findViewById<Button>(R.id.blackCoffee)
+        bCoffee.setOnClickListener {
+            val intent = Intent(this, BlackCoffeeActivity::class.java)
+            startActivity(intent)
+        }
     }
 }
