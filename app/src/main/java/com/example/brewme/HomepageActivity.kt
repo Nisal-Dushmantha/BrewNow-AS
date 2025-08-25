@@ -30,9 +30,9 @@ class HomepageActivity : AppCompatActivity() {
             val intent = Intent(this, CartActivity::class.java)
             startActivity(intent)
         }
-        val favouritespage = findViewById<ImageView>(R.id.favourite)
-        favouritespage.setOnClickListener {
-            val intent = Intent(this, FavouritesActivity::class.java)
+        val menupage = findViewById<ImageView>(R.id.menu)
+        menupage.setOnClickListener {
+            val intent = Intent(this, MenuActivity::class.java)
             startActivity(intent)
         }
         val homepage = findViewById<ImageView>(R.id.home)

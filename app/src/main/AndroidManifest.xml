@@ -12,13 +12,16 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.BrewMe">
         <activity
+            android:name=".cappaccinoActivity"
+            android:exported="false" />
+        <activity
             android:name=".HomepageActivity"
             android:exported="false" />
         <activity
             android:name=".OffersActivity"
             android:exported="false" />
         <activity
-            android:name=".FavouritesActivity"
+            android:name=".MenuActivity"
             android:exported="false" />
         <activity
             android:name=".CartActivity"
