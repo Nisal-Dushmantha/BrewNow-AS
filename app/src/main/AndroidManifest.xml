@@ -12,6 +12,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.BrewMe">
         <activity
+            android:name=".PaymentActivity"
+            android:exported="false" />
+        <activity
             android:name=".BlackCoffeeActivity"
             android:exported="false" />
         <activity

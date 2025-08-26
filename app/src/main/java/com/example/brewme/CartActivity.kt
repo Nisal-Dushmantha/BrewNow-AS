@@ -1,5 +1,6 @@
 package com.example.brewme
 
+import android.widget.Button
 import android.content.Intent
 import android.os.Bundle
 import android.widget.ImageView
@@ -38,6 +39,28 @@ class CartActivity : AppCompatActivity() {
         val homepage = findViewById<ImageView>(R.id.home)
         homepage.setOnClickListener {
             val intent = Intent(this, HomepageActivity::class.java)
+            startActivity(intent)
+        }
+
+
+        val cart1 = findViewById<Button>(R.id.cartbtn1)
+        cart1.setOnClickListener {
+            val intent = Intent(this, CartActivity::class.java)
+            startActivity(intent)
+        }
+        val cart2 = findViewById<Button>(R.id.cartbtn2)
+        cart2.setOnClickListener {
+            val intent = Intent(this, CartActivity::class.java)
+            startActivity(intent)
+        }
+        val cart3 = findViewById<Button>(R.id.cartbtn3)
+        cart3.setOnClickListener {
+            val intent = Intent(this, CartActivity::class.java)
+            startActivity(intent)
+        }
+        val cart4 = findViewById<Button>(R.id.cartbtn4)
+        cart4.setOnClickListener {
+            val intent = Intent(this, CartActivity::class.java)
             startActivity(intent)
         }
     }

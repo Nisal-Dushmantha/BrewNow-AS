@@ -2,6 +2,7 @@ package com.example.brewme
 
 import android.content.Intent
 import android.os.Bundle
+import android.widget.Button
 import android.widget.ImageView
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
@@ -38,6 +39,30 @@ class HomepageActivity : AppCompatActivity() {
         val homepage = findViewById<ImageView>(R.id.home)
         homepage.setOnClickListener {
             val intent = Intent(this, HomepageActivity::class.java)
+            startActivity(intent)
+        }
+
+        val cappaccino = findViewById<Button>(R.id.cappaccinobtn)
+        cappaccino.setOnClickListener {
+            val intent = Intent(this, cappaccinoActivity::class.java)
+            startActivity(intent)
+        }
+
+        val americano = findViewById<Button>(R.id.amercanobtn)
+        americano.setOnClickListener {
+            val intent = Intent(this, AmericanoActivity::class.java)
+            startActivity(intent)
+        }
+
+        val espresso = findViewById<Button>(R.id.cappaccinobtn2)
+        espresso.setOnClickListener {
+            val intent = Intent(this, EspressoActivity::class.java)
+            startActivity(intent)
+        }
+
+        val offer = findViewById<Button>(R.id.offerbtn)
+        offer.setOnClickListener {
+            val intent = Intent(this, MenuActivity::class.java)
             startActivity(intent)
         }
     }

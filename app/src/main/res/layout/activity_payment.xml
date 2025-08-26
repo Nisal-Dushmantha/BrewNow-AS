@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     app:layout_constraintCircleRadius="@android:dimen/notification_large_icon_height"
-    tools:context=".OffersActivity">
+    tools:context=".PaymentActivity">
 
     <FrameLayout
         android:id="@+id/bottom"
@@ -79,54 +79,95 @@
         app:layout_constraintVertical_bias="0.0">
 
         <ImageView
-            android:id="@+id/imageView8"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="30dp"
-            android:layout_marginTop="216dp"
-            android:layout_marginEnd="16dp"
+            android:id="@+id/imageView10"
+            android:layout_width="430dp"
+            android:layout_height="667dp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.0"
-            app:srcCompat="@drawable/offerbg" />
-
-        <ImageView
-            android:id="@+id/imageView9"
-            android:layout_width="387dp"
-            android:layout_height="181dp"
-            android:layout_marginStart="13dp"
-            android:layout_marginEnd="15dp"
-            android:layout_marginBottom="52dp"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.0"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.083"
-            app:srcCompat="@drawable/special_offer" />
+            app:srcCompat="@drawable/payment_method" />
 
         <Button
-            android:id="@+id/offerbtn"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="50dp"
-            android:layout_marginTop="155dp"
-            android:layout_marginEnd="245dp"
-            android:layout_marginBottom="448dp"
-            android:backgroundTint="@color/primary_color"
-            android:text="Order Now"
-            android:textColor="@color/secondary_color"
-            android:textSize="15dp"
+            android:id="@+id/button"
+            android:layout_width="297dp"
+            android:layout_height="58dp"
+            android:layout_marginStart="63dp"
+            android:layout_marginTop="535dp"
+            android:layout_marginEnd="55dp"
+            android:layout_marginBottom="58dp"
+            android:backgroundTint="@color/accent_color"
+            android:text="Pay"
+            android:textSize="20dp"
             android:textStyle="bold"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="1.0"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.0" />
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:id="@+id/editTextText"
+            android:layout_width="300dp"
+            android:layout_height="44dp"
+            android:layout_marginStart="56dp"
+            android:layout_marginTop="58dp"
+            android:layout_marginEnd="59dp"
+            android:layout_marginBottom="549dp"
+            android:ems="10"
+            android:hint="PGNL Dushmantha"
+            android:inputType="text"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:id="@+id/editTextText2"
+            android:layout_width="300dp"
+            android:layout_height="44dp"
+            android:layout_marginStart="56dp"
+            android:layout_marginTop="140dp"
+            android:layout_marginEnd="59dp"
+            android:layout_marginBottom="467dp"
+            android:ems="10"
+            android:hint="xxxx xxxx xxxx xxxx"
+            android:inputType="text"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:id="@+id/editTextText3"
+            android:layout_width="300dp"
+            android:layout_height="44dp"
+            android:layout_marginStart="56dp"
+            android:layout_marginTop="220dp"
+            android:layout_marginEnd="59dp"
+            android:layout_marginBottom="387dp"
+            android:ems="10"
+            android:hint="12/26"
+            android:inputType="text"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:id="@+id/editTextText4"
+            android:layout_width="300dp"
+            android:layout_height="44dp"
+            android:layout_marginStart="56dp"
+            android:layout_marginTop="293dp"
+            android:layout_marginEnd="59dp"
+            android:layout_marginBottom="314dp"
+            android:ems="10"
+            android:hint="xxx"
+            android:inputType="text"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
     </androidx.constraintlayout.widget.ConstraintLayout>
 
     <LinearLayout
