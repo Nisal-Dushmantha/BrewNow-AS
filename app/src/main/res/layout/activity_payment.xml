@@ -89,7 +89,7 @@
             app:srcCompat="@drawable/payment_method" />
 
         <Button
-            android:id="@+id/button"
+            android:id="@+id/pay"
             android:layout_width="297dp"
             android:layout_height="58dp"
             android:layout_marginStart="63dp"

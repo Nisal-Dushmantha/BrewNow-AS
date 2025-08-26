@@ -45,22 +45,22 @@ class CartActivity : AppCompatActivity() {
 
         val cart1 = findViewById<Button>(R.id.cartbtn1)
         cart1.setOnClickListener {
-            val intent = Intent(this, CartActivity::class.java)
+            val intent = Intent(this, PaymentActivity::class.java)
             startActivity(intent)
         }
         val cart2 = findViewById<Button>(R.id.cartbtn2)
         cart2.setOnClickListener {
-            val intent = Intent(this, CartActivity::class.java)
+            val intent = Intent(this, PaymentActivity::class.java)
             startActivity(intent)
         }
         val cart3 = findViewById<Button>(R.id.cartbtn3)
         cart3.setOnClickListener {
-            val intent = Intent(this, CartActivity::class.java)
+            val intent = Intent(this, PaymentActivity::class.java)
             startActivity(intent)
         }
         val cart4 = findViewById<Button>(R.id.cartbtn4)
         cart4.setOnClickListener {
-            val intent = Intent(this, CartActivity::class.java)
+            val intent = Intent(this, PaymentActivity::class.java)
             startActivity(intent)
         }
     }
