@@ -3,6 +3,7 @@ package com.example.brewme
 import android.content.Intent
 import android.os.Bundle
 import android.widget.Button
+import android.widget.ImageView
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
@@ -22,6 +23,11 @@ class PaymentActivity : AppCompatActivity() {
         val afterpay = findViewById<Button>(R.id.pay)
         afterpay.setOnClickListener {
             val intent = Intent(this, HomepageActivity::class.java)
+            startActivity(intent)
+        }
+        val profile = findViewById<ImageView>(R.id.imageView13)
+        profile.setOnClickListener {
+            val intent = Intent(this, ProfileActivity::class.java)
             startActivity(intent)
         }
     }
