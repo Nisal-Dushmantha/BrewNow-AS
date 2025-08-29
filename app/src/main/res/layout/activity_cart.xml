@@ -49,7 +49,7 @@
                 android:layout_height="80dp"
                 android:layout_weight="1"
                 android:paddingTop="30dp"
-                app:srcCompat="@drawable/heart"
+                app:srcCompat="@drawable/menu"
                 android:clickable="true"
                 android:focusable="true"/>
 
